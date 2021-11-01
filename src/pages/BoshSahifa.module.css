@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.bosh_logo_item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bosh_image {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bosh_image_item {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+.bosh_image p,
+.bosh_clock {
+  margin: 0;
+  color: #002347;
+  font-size: 1.3rem;
+}
+.bosh_image .bosh_p2 {
+  display: none;
+}
+.navbar_menu {
+  position: absolute;
+  top: 10vh;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  z-index: 1000;
+}
+.active {
+  position: fixed;
+  top: 0;
+  padding: 25px;
+  background-color: #fff;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0 3px 16px 0 rgb(0 0 0 / 10%);
+}
+
+.navbar_menu * {
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.navar_logo {
+  display: none;
+}
+.navar_logo a {
+  font-weight: 800;
+  font-size: 2rem;
+}
+.navar_logo a:hover,
+.navar_logo a:active,
+.navar_logo a:checked,
+.navar_logo_md a:hover,
+.navar_logo_md a:active {
+  color: #fdc632;
+}
+.navbar_items {
+  margin-left: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar_items a {
+  font-weight: 600;
+  margin: 0 2px;
+  color: #002347;
+}
+.navbar_items a:hover,
+.navbar_items a:checked {
+  color: #fdc632;
+}
+.navbar_button {
+  display: none;
+}
+.header_types {
+  width: 100vw;
+  height: 100vh;
+}
+.header_type {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_center {
+  text-align: center;
+  height: 30%;
+}
+.typed_item {
+  color: #002347;
+  font-weight: 600;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  text-shadow: 0 0 3px #3fff;
+}
+.yozuvBtn {
+  margin-top: 40px;
+}
+.yozuvBtn button {
+  color: #002347;
+  background-color: #fdc632;
+  font-size: 14px;
+  padding: 15px 30px;
+  border: none;
+}
+.yozuvBtn button:hover {
+  background-color: #002347;
+  color: #fdc632;
+}
+.row_col_item {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_item1 {
+  position: relative;
+  height: 10rem;
+  border-right: 10px;
+}
+.card_items {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card_item {
+  width: 20rem;
+  background-color: #f9f9ff;
+  position: relative;
+  margin: 5px 0;
+  min-height: 23rem;
+  border-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.card_item:hover,
+.card_item1:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.card_title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.card_item a,
+.card_item p {
+  color: #002347;
+  font-size: 15px;
+}
+.card_title h3 {
+  margin: 0 10px;
+  color: #002347;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.card_item1_text * {
+  font-size: 15px;
+}
+
+.card_for_body,
+.card_for_body1 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10rem;
+  margin: 0 auto;
+}
+.card_title svg {
+  color: #318ce3;
+  font-size: 30px;
+}
+.main_header {
+  color: #fdc632;
+  background-image: url(../img/uzorami.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 15px auto;
+  padding: 20px 5px;
+  transform: all 0.5s;
+}
+
+.main_header:hover {
+  color: #fdc632;
+  background-image: url(../img/uzorami2.jpg);
+  background-repeat: no-repeat;
+}
+.containerRow {
+  width: 90%;
+  margin: 15px auto;
+}
+.containerRow .pp {
+  font-size: 25px;
+  color: #002347;
+  padding: 20px 5px;
+  text-indent: 20px;
+}
+.tugmacha {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.bosh_yangilik_row {
+  overflow-y: scroll;
+}
+
+.imgpp img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1500px) {
+  .row_col_item {
+    padding: 5px;
+  }
+  .card_item {
+    width: 20rem;
+    min-height: 22rem;
+  }
+
+  .card_for_body {
+    bottom: 0;
+    height: 8.5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .bosh_image p,
+  .bosh_clock {
+    font-size: 14px;
+  }
+  .navbar_button {
+    display: block;
+  }
+  .navar_logo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .navar_logo a {
+    color: #002347;
+  }
+  .navbar_button {
+    border: none;
+    color: #fdc632;
+    background-color: #002347;
+  }
+  .navbar_items {
+    display: none;
+  }
+  .navbar_md {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(47, 18, 18);
+    background: linear-gradient(180deg, #fdc630 0%, #002347 100%);
+    z-index: 1000;
+  }
+  .navbar_md * {
+    color: #fff;
+  }
+  .navar_logo_md {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 20px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar_items_md a {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  .navbar_items_md a:hover {
+    font-size: 1.6rem;
+    text-shadow: 0 0 3px #fff;
+  }
+  .row_col_item {
+    padding: 10px;
+  }
+  .card_item {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .card_item {
+    width: 20rem;
+    height: 23rem;
+  }
+
+  .card_for_body {
+    bottom: 0;
+    height: 10rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .bosh_image .bosh_p1,
+  .bosh_clock {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .active {
+    padding: 10px 25px;
+  }
+  .bosh_image .bosh_p1 {
+    display: none;
+  }
+  .bosh_image .bosh_p2 {
+    display: block;
+  }
+  .bosh_logo_item {
+    display: none;
+  }
+  .navbar_menu {
+    top: 0;
+  }
+
+  .containerRow .pp {
+    font-size: 15px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,262 @@
+* {
+  font-family: Arial;
+}
+.main_header {
+  color: #fdc632;
+  background-image: url(../img/uzorami.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+  /* border: 2px solid rgb(202, 202, 32); */
+  margin: 15px auto;
+  padding: 20px 5px;
+  font-size: 2.1rem;
+  transform: all 0.5s;
+}
+
+.main_header:hover {
+  color: #fdc632;
+  background-image: url(../img/uzorami2.jpg);
+  background-repeat: no-repeat;
+}
+.container {
+  margin-top: 10px;
+  width: 100%;
+  padding: 50px 30px 80px;
+  /* padding-bottom: 100px; */
+}
+
+.flipBox {
+  background-color: transparent;
+  width: 100%;
+  height: 250px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  border-radius: 10px;
+}
+.flipBoxInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 0.8s;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+}
+
+.flipBox:hover .flipBoxInner {
+  transform: rotateY(180deg);
+}
+
+.flipBoxFront,
+.flipBoxBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flipBoxFront {
+  color: black;
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  background-repeat: no-repeat;
+}
+.filpBoxFrontItem {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.filpBoxFrontItem p {
+  background-color: #07090acb;
+  width: 100%;
+  color: #ffffff;
+  margin: 0;
+  font-size: 24px;
+  padding: 10px 0;
+  border-radius: 0 0 5px 5px;
+}
+.flipBoxBack {
+  /* background-image: url("../img/bgfon.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  transform: rotateY(180deg);
+  text-align: center;
+  padding: 5%;
+  font-size: 25px;
+}
+
+.map h3 {
+  width: 90%;
+  margin: 20px auto;
+  margin-top: 10px;
+  color: #fffdf9;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.map .innerMap {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.mapItem {
+  width: 90%;
+  margin: 20px auto;
+}
+.map .redIcon1 {
+  color: #fffcf2;
+  padding-top: 5px;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+.map span {
+  color: #fff5f5;
+}
+
+.school2 Image {
+  width: 100%;
+  height: 200px;
+}
+.barchasiniKurish {
+  text-decoration: none;
+  position: absolute;
+  margin-top: 10px;
+  color: darkgreen;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.manzil_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.manzil_image img {
+  height: 350px;
+}
+.mapsr {
+  padding: 20px;
+}
+@media (max-width: 1500px) {
+  .map h3 {
+    font-size: 1.5rem;
+  }
+  .innerMap {
+    font-size: 1rem;
+  }
+
+  .manzil_image img {
+    height: 250px;
+  }
+}
+@media (max-width: 1000px) {
+  .flipBox {
+    width: 100%;
+    height: 200px;
+  }
+  .map h3 {
+    font-size: 1.2rem;
+  }
+  .innerMap {
+    font-size: 0.9rem;
+  }
+  .filpBoxFrontItem p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .mapsr {
+    padding: 0 20px;
+  }
+  .manzil_image {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .flipBox {
+    width: 100%;
+    height: 350px;
+  }
+  .main_header {
+    font-size: 24px;
+  }
+  .map h3 {
+    font-size: 2rem;
+  }
+  .innerMap {
+    font-size: 1.5rem;
+  }
+
+  .filpBoxFrontItem p {
+    font-size: 15px;
+    padding: 5px 0;
+  }
+  .container {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .barchasiniKurish {
+    font-size: 1.2rem;
+  }
+
+  .map h3 {
+    font-size: 1.8rem;
+  }
+  .innerMap {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 500px) {
+  .flipBox {
+    width: 100%;
+    height: 250px;
+  }
+  .map h3 {
+    font-size: 1.5rem;
+  }
+  .innerMap {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .flipBox {
+    width: 100%;
+    height: 200px;
+  }
+  .map h3 {
+    font-size: 1.2rem;
+  }
+  .innerMap {
+    font-size: 0.9rem;
+  }
+
+  .filpBoxFrontItem p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 350px) {
+  .barchasiniKurish {
+    font-size: 1rem;
+  }
+
+  .map h3 {
+    font-size: 1rem;
+  }
+  .innerMap {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 300px) {
+  .flipBox {
+    width: 100%;
+    height: 180px;
+  }
+}

@@ -1,0 +1,250 @@
+.navbar_menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 25px;
+  z-index: 1000;
+  background-color: #01091f8c;
+}
+.navbar_md * {
+  text-decoration: none;
+}
+.navbar_menu * {
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.active {
+  position: fixed;
+  top: 0;
+  padding: 25px;
+  background-color: #fff;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0 3px 16px 0 rgb(0 0 0 / 10%);
+}
+
+.navar_logo {
+  display: none;
+}
+.navar_logo a {
+  font-weight: 800;
+  font-size: 1rem;
+}
+.navar_logo a:hover,
+.navar_logo a:active,
+.navar_logo a:checked,
+.navar_logo_md a:hover,
+.navar_logo_md a:active {
+  color: #fdc632;
+}
+.navbar_items {
+  margin-left: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar_items a {
+  font-weight: bold;
+  margin: 0 5px;
+  color: #ffffff;
+}
+.active a {
+  color: #002347;
+  /* border-right: 1.5px solid #002347; */
+}
+.navbar_items a:hover,
+.navbar_items a:checked {
+  color: #fdc632;
+}
+.navbar_button {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar_menu {
+    padding: 10px;
+  }
+  .active {
+    padding: 7px;
+  }
+  .bosh_image p,
+  .bosh_clock {
+    font-size: 14px;
+  }
+  .navbar_button {
+    display: block;
+  }
+  .navar_logo {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .navar_logo a {
+    color: #fdc632;
+  }
+  .active a {
+    color: #002347;
+  }
+  .navbar_button {
+    border: none;
+    color: #fdc632;
+    background-color: #002347;
+  }
+  .navbar_items {
+    display: none;
+  }
+  .navbar_md {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(47, 18, 18);
+    background: linear-gradient(180deg, #001057 0%, #002347 100%);
+    z-index: 1000;
+  }
+  .navbar_md * {
+    color: #fff;
+  }
+  .navar_logo_md {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 20px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar_items_md a {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  .navbar_items_md a:hover {
+    font-size: 1.4rem;
+    text-shadow: 0 0 3px #fff;
+  }
+}
+@media screen and (max-width: 768px) {
+  .active {
+    padding: 10px 25px;
+  }
+}
+/* * {
+  margin: 0;
+  padding: 0;
+}
+.navbar_menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 20px;
+  background-color: #08173f;
+  border-bottom: 2px solid #555;
+}
+.navbar_menu * {
+  color: rgb(231, 198, 10);
+  letter-spacing: 1px;
+  font-size: 1rem;
+}
+.navar_logo a {
+  font-weight: 800;
+  font-size: 2rem;
+}
+.navar_logo a:hover,
+.navar_logo a:active,
+.navar_logo a:checked,
+.navar_logo_md a:hover,
+.navar_logo_md a:active {
+  color: #fff;
+}
+.navbar_items {
+  margin-left: 10px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar_items a {
+  font-weight: 600;
+  margin: 0 2px;
+  border: 3px solid none;
+}
+.navbar_items a:hover {
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-bottom: 3px solid #fff;
+}
+.navbar_button {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  .navbar_button {
+    display: block;
+  }
+  .navbar_items {
+    display: none;
+  }
+  .navbar_md {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(47, 18, 18);
+    background: linear-gradient(
+      180deg,
+      rgba(47, 18, 18, 1) 0%,
+      rgba(88, 127, 237, 1) 0%,
+      rgba(94, 101, 226, 1) 79%,
+      rgba(185, 208, 232, 1) 100%
+    );
+    z-index: 1000;
+  }
+  .navbar_md * {
+    color: #fff;
+  }
+  .navar_logo_md {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 20px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar_items_md a {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  .navbar_items_md a:hover {
+    font-size: 1.6rem;
+    text-shadow: 0 0 3px #fff;
+  }
+} */
+
+.navbarline1 {
+  background-color: #fdc630;
+  width: 100px;
+  margin: auto;
+  height: 1px;
+}
+.navbarline2 {
+  border-left: 2px solid #fdc630;
+  height: 50px;
+  position: absolute;
+  margin-top: -2%;
+}
+.navbar_items span {
+  border-right: 1.5px solid #ffffff;
+  padding-right: 22px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}

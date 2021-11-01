@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css2?family=Enriqueta:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body_makatab {
+  background-image: url("https://i.pinimg.com/originals/29/47/5a/29475a74a7b11eea153170eec441b295.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position-x: right;
+}
+.body_makatab * {
+  color: #002347;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dark_maktab {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.qabulHeader {
+  background-image: url("https://img.freepik.com/free-photo/education-day-assortment-with-copy-space_23-2148721275.jpg?size=626&ext=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  width: 100%;
+  height: 95vh;
+}
+.qabul_header {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 95vh;
+  margin: 0;
+}
+.text_q {
+  padding-top: 20%;
+  padding-left: 10%;
+}
+.text_q h1 {
+  font-size: 40px;
+  text-align: center;
+
+  color: #fdc632;
+  /* background-color: #fdc632; */
+  text-shadow: 0 0 1px #000;
+  line-height: 100px;
+  letter-spacing: 5px;
+  font-family: "Enriqueta", serif;
+}
+.header_image_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_image {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: 0 30% 0 10%;
+}
+.qabul_image {
+  border-radius: 5px;
+  margin: 5% 0;
+}
+
+.talim {
+  width: 100%;
+  padding: 2%;
+  background-color: #002347;
+}
+.info {
+  min-height: 250px;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #fdc632;
+}
+.info h3 {
+  padding: 2px;
+  font-size: 30px;
+  text-align: center;
+}
+.info p {
+  text-indent: 30px;
+  font-size: 15px;
+}
+.jarayon {
+  padding: 2%;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+.jarayon_text {
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jarayon_text div {
+  background-color: #fdc632;
+  border-radius: 5px;
+  min-height: 200px;
+  padding: 10px;
+}
+.jarayon h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #fdc632;
+}
+.jarayon h5 {
+  font-size: 20px;
+  text-align: center;
+}
+.jarayon_text p {
+  text-indent: 30px;
+  font-size: 15px;
+}
+.line {
+  width: 10%;
+  border-bottom: 3px solid #fdc632;
+  margin: 0 auto;
+}
+.tavsilot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+.tavsilot img {
+  border: 1px inset;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin: 0 10%;
+  border-radius: 5px;
+}
+.tavsilottext {
+  padding: 5% !important;
+  background-color: #fdc632;
+  z-index: 2 !important;
+  text-align: justify;
+}
+
+.tavsilottext h5 {
+  text-align: center;
+  font-size: 20px;
+  color: #002347;
+  margin-bottom: 3%;
+}
+.tavsilottext p {
+  text-indent: 30px;
+  font-size: 15px;
+  color: #002347;
+  opacity: 1;
+}
+.talablar {
+  height: 500px;
+  margin-top: 5%;
+  margin-bottom: 5% !;
+}
+.talab {
+  padding-top: 100px !important;
+  z-index: 3;
+}
+.talab img {
+  width: 100% !important;
+  height: 300px;
+  z-index: 3 !important;
+  object-fit: cover;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+}
+.talabtext {
+  width: 100%;
+  padding-left: 5% !important;
+  padding-top: 3%;
+  background-color: #fdc632;
+  height: 510px;
+  padding-right: 5% !important;
+  z-index: 2 !important;
+  text-align: justify;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.talabtext h5 {
+  text-shadow: 0 0 5px #fff;
+  color: black;
+  margin-bottom: 3%;
+}
+.talabtext p {
+  font-size: 17.5px;
+  color: black;
+  opacity: 0.8;
+}
+.muddat {
+  padding: 3%;
+}
+.muddat_header {
+  padding: 5px;
+  padding-bottom: 30px;
+}
+.muddat_header h1 {
+  font-size: 40px;
+  color: #fdc632;
+}
+.muddat_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.muddat_text1,
+.muddat_text2,
+.muddat_text3 {
+  display: flex;
+  justify-content: center;
+  margin: 0 80px;
+  padding: 25px 10px;
+  text-align: center;
+  background-color: #fdc632;
+  border-radius: 10px;
+  min-height: 150px;
+}
+
+.muddat_text1 h3,
+.muddat_text2 h3,
+.muddat_text3 h3 {
+  font-size: 20px;
+}
+.muddat_text1 p,
+.muddat_text2 p,
+.muddat_text3 p {
+  font-size: 12px;
+}
+
+.hujjat {
+  min-height: 80vh;
+  background-image: url(../img/hujjat.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+.hujjat_text {
+  width: 50%;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #fdc632;
+  text-align: justify;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.hujjat_text h3 {
+  font-size: 30px;
+}
+.hujjat_text p {
+  font-size: 20px;
+}
+
+/* media =============*/
+@media screen and (max-width: 1500px) {
+  .text_q h1 {
+    margin-top: 15%;
+    font-size: 30px;
+  }
+  .header_image {
+    display: none;
+  }
+  .qabul_image {
+    height: 300px;
+    width: 400px;
+    border-radius: 50%;
+  }
+  .talim {
+    width: 100%;
+    padding: 5%;
+  }
+  .info {
+    min-height: 250px;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .info h3 {
+    font-size: 25px;
+  }
+  .info p {
+    font-size: 15px;
+  }
+  .jarayon {
+    margin-bottom: 0;
+  }
+
+  .tavsilottext {
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .tavsilot > img {
+    border-radius: 0;
+    margin: 0 10%;
+  }
+  .tavsilottext h3 {
+    color: #002347;
+    margin-bottom: 3%;
+  }
+  .tavsilottext p {
+    font-size: 15px;
+    color: #002347;
+  }
+  .muddat_text1,
+  .muddat_text2,
+  .muddat_text3 {
+    margin: 10px;
+  }
+  .hujjat {
+    min-height: 300px;
+  }
+  .hujjat_text {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fdc632;
+    text-align: justify;
+    border-radius: 10px;
+  }
+  .hujjat_text h3 {
+    font-size: 40px;
+  }
+  .hujjat_text p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .jarayon_text p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hujjat_text h3 {
+    font-size: 30px;
+  }
+  .hujjat_text p {
+    text-align: start;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .text_q {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text_q h1 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+  }
+  .qabul_image {
+    height: 200px;
+    width: 250px;
+    border-radius: none;
+  }
+
+  .tavsilot > img {
+    margin: 0;
+  }
+  .talim {
+    width: 100%;
+    margin-top: 10%;
+    padding: 5%;
+  }
+  .line {
+    width: 50%;
+  }
+  .info {
+    min-height: 250px;
+    border-radius: 0;
+    padding: 20px;
+  }
+  .info h3 {
+    font-size: 25px;
+  }
+  .info p {
+    text-indent: 10px;
+    font-size: 15px;
+  }
+  .jarayon h1 {
+    font-size: 20px;
+  }
+
+  .jarayon_text p {
+    text-indent: 10px;
+    font-size: 15px;
+  }
+  .jarayon {
+    margin-bottom: 0;
+  }
+  .muddat_header h1 {
+    font-size: 30px;
+  }
+  .muddat_text1,
+  .muddat_text2,
+  .muddat_text3 {
+    font-size: 10px;
+    max-height: 100px;
+  }
+  .muddat_text1 h3,
+  .muddat_text2 h3,
+  .muddat_text3 h3 {
+    font-size: 15px;
+  }
+  .muddat_text1 p,
+  .muddat_text2 p,
+  .muddat_text3 p {
+    font-size: 10px;
+    text-indent: 10px;
+  }
+
+  .tavsilottext p {
+    text-indent: 10px;
+  }
+
+  .hujjat {
+    min-height: 10vh;
+    background-image: url(../img/hujjat.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .hujjat_text {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-color: rgba(255, 240, 25, 0.8);
+    text-align: justify;
+    border-radius: 0;
+  }
+  .hujjat_text h3 {
+    font-size: 15px;
+  }
+  .hujjat_text p {
+    padding-left: 10px;
+    text-indent: -10px;
+    font-size: 10px;
+  }
+}
