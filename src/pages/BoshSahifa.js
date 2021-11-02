@@ -344,8 +344,11 @@ export default class BoshSahifa extends Component {
                 </div>
               </div>
             </div>
+            <div classname={style.cardnamet}> <h1>Bizning afzalliklarimiz</h1></div> 
 
             <div className={style.card_items}>
+
+
               <Card style={{ width: "20rem" }} className={style.card_item}>
                 <Card.Img
                   variant="top"
@@ -359,20 +362,18 @@ export default class BoshSahifa extends Component {
                 />
 
                 <Card.Body className={style.card_for_body}>
-                  <Link to={`/yangiliklar/`}>
+                  
                     <Card.Title className={style.card_title}>
                       <FontAwesomeIcon
                         icon={faNewspaper}
                         className={style.card_icon}
                       />
-                      <h3>Yangiliklar</h3>
+                      <h3>Sifatli va samarali ta'lim tizimi</h3>
                     </Card.Title>
-                    <Card.Text>
-                      {/* <Link to={`/yangiliklar/`}> */}
+                    {/* <Card.Text>
+                     
                       Maktabimizga doir bo'lgan yangiliklardan xabardor bo'ling
-                      {/* </Link> */}
-                    </Card.Text>
-                  </Link>
+                    </Card.Text> */}
                 </Card.Body>
               </Card>
               <Card style={{ width: "20rem" }} className={style.card_item}>
@@ -386,24 +387,23 @@ export default class BoshSahifa extends Component {
                       : rasm1
                   }
                 />
+
                 <Card.Body className={style.card_for_body}>
-                  <Link to={`/yutuqlar/`}>
                     <Card.Title className={style.card_title}>
                       <FontAwesomeIcon
                         icon={faSchool}
                         className={style.card_icon}
                       />
-                      <h3>Yutuqlarimiz</h3>
+                      <h3>Oliy ma'lumotli va malakali ustolar jamoasi</h3>
                     </Card.Title>
-                    <Card.Text>
+                    {/* <Card.Text>
                       Sizda bizning maktabimiz yutuqlari bilan tanishib chiqish
                       uchun qulay imkoniyat bor
-                    </Card.Text>
-                  </Link>
+                    </Card.Text> */}
                 </Card.Body>
               </Card>{" "}
               <Card style={{ width: "20rem" }} className={style.card_item}>
-                <Card.Img
+                <Card.Img 
                   variant="top"
                   src={
                     this.state.school !== null
@@ -415,26 +415,19 @@ export default class BoshSahifa extends Component {
                 />
                 <Card.Body className={style.card_for_body}>
                   {" "}
-                  <Link to={`/gallery/`}>
                     <Card.Title className={style.card_title}>
                       <FontAwesomeIcon
                         icon={faDoorOpen}
                         className={style.card_icon}
                       />
-                      <h3>Fotolavhalar</h3>
+                      <h3>Zamonaviy jihozlangan maktab binosi</h3>
                     </Card.Title>
-                    <Card.Text>
-                      {/* <Link to={`/gallery/`}> */}
-                      Endi siz maktabimizning fotolavhalarini ko'rishingiz
-                      mumkin
-                      {/* </Link> */}
-                    </Card.Text>{" "}
-                  </Link>
+                    
                 </Card.Body>
               </Card>
             </div>
 
-            <Row className={style.containerRow}>
+            {/* <Row className={style.containerRow}>
               <Col xl="6" lg="12" md="12">
                 <h3 className={style.main_header}>
                   Maktabdagi yangiliklari va o'zgarishlar
@@ -510,7 +503,7 @@ export default class BoshSahifa extends Component {
                   </div>
                 </div>
               </Col>
-            </Row>
+            </Row> */}
             <Darsliklar/>
             <BoshSahifaDavomi />
             <MaktabTadbirlari />
