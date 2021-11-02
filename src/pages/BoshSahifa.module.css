@@ -64,7 +64,7 @@
 .navar_logo a:checked,
 .navar_logo_md a:hover,
 .navar_logo_md a:active {
-  color: #fdc632;
+  color: #c79200;
 }
 .navbar_items {
   margin-left: 10px;
@@ -76,7 +76,7 @@
 .navbar_items a {
   font-weight: 600;
   margin: 0 2px;
-  color: #002347;
+  color: #222222;
 }
 .navbar_items a:hover,
 .navbar_items a:checked {

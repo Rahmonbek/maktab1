@@ -29,6 +29,12 @@ import Darsliklar from "./Darsliklar";
 import "aos";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 //import { styles } from "material-ui-pickers/wrappers/InlineWrapper";
+import { FaTelegram, FaFacebook } from "react-icons/fa";
+import { FiInstagram } from "react-icons/fi";
+import { AiFillYoutube } from "react-icons/ai";
+
+
+
 
 export default class BoshSahifa extends Component {
   state = {
@@ -163,7 +169,7 @@ export default class BoshSahifa extends Component {
                     <AiOutlineMenu />
                   </Button>
                 </div>
-                <div className={`${style.navbar_items}`}>
+                {/* <div className={`${style.navbar_items}`}>
                   <Link to={`/`}>
                     <span>Bosh sahifa</span>
                   </Link>
@@ -184,7 +190,36 @@ export default class BoshSahifa extends Component {
                   <Link to={`/rahbariyat/`}>
                     <span>Maktab ma'muriyati</span>
                   </Link>
+                </div> */}
+
+<div className={`${style.navbar_items}`}>
+                  <Link to={`/`}>
+                    <span>Bosh sahifa</span>
+                  </Link>
+                  <Link to={`/#/`}>
+                    <span>Qabul</span>
+                  </Link>
+                  <Link to={`/#/`}>
+                    <span>Yangiliklar</span>
+                  </Link>
+                  <Link to={`/#/`}>
+                    <span onClick={this.handleClick.bind(this)}>
+                      Maktab hayoti
+                    </span>
+                  </Link>
+                  <Link to={`/#/`}>
+                    <span>Maktab a'lochilari</span>
+                  </Link>
+                  <Link to={`/#/`}>
+                    <span>Maktab ma'muriyati</span>
+                  </Link>
                 </div>
+
+
+
+
+
+
               </Container>
             </Navbar>
             {this.state.bool ? (
@@ -242,23 +277,70 @@ export default class BoshSahifa extends Component {
 
             <div
               className={style.header_types}
-              style={{
-                backgroundImage: `url('https://preview.colorlib.com/theme/edustage/img/banner/xhome-banner.jpg.pagespeed.ic.HLGqKgJtIp.jpg')`,
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
+              // style={{
+              //   backgroundImage: `url('https://preview.colorlib.com/theme/edustage/img/banner/xhome-banner.jpg.pagespeed.ic.HLGqKgJtIp.jpg')`,
+              //   backgroundRepeat: "no-repeat",
+              //   backgroundSize: "cover",
+              //   backgroundPosition: "center",
+              // }}
             >
               <div className={`${style.header_type}`}>
                 <div className={style.header_center}>
                   <h2 className={`text-center ${style.typed_item}`}>
                     BIZNING MAKTABIMIZGA XUSH KELIBSIZ
                   </h2>
-                  <div className={style.yozuvBtn}>
-                    <Link to="/hayot/">
+                  {/* <div className={style.yozuvBtn}> */}
+                    {/* <Link to="/hayot/">
                       <Button>Maktab hayoti</Button>
-                    </Link>
-                  </div>
+                    </Link> */}
+ <Col
+                  className={style.boglanish}
+                  lg={10}
+                  md={10}
+                  sm={12}
+                  xl={10}
+                >
+                  <p>
+                    <a
+                      href={"https://bit.ly/39Qt87k"}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FaTelegram className={style.relations} style={{ color:"#201f51"}}/>
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href={"https://bit.ly/3B2suzE"}
+                      target="_blank"
+                      
+                      rel="noreferrer"
+                    >
+                      <FiInstagram className={style.relations} style={{ color:"#201f51"}} />
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href={"https://bit.ly/3ojl7QJ"}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FaFacebook className={style.relations} style={{ color:"#201f51"}} />
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href={"https://bit.ly/39QGOPL"}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <AiFillYoutube className={style.relations} style={{ color:"#201f51"}} />
+                    </a>
+                  </p>
+                </Col>
+
+
+                  {/* </div> */}
                 </div>
               </div>
             </div>

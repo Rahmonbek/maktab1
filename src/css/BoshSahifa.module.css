@@ -4,6 +4,13 @@
     height: 90vh;
     border-bottom: 2px solid black;
 } */
+.header_types{
+  background-image: url('https://preview.colorlib.com/theme/edustage/img/banner/xhome-banner.jpg.pagespeed.ic.HLGqKgJtIp.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
 .dashboard {
   margin-top: 0;
   background-image: url(../img/priscilla-du-preez-XkKCui44iM0-unsplash.jpg);
@@ -12,9 +19,37 @@
   background-position: center;
   height: 90vh;
   border-bottom: 2px solid black;
-  text-align: center;
+  text-align: center;}
   /* opacity: 0.6; */
+
+.header_center .relations{
+width: 150px;
+background-color: #5ca1e1;
+height: 70px;
 }
+.boglanish{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.boglanish p{
+  font-size: 20px;
+}
+.boglanish  a{
+  
+  transition: linear 0.4s;
+}
+.boglanish  a:hover{
+  font-size: 22px;
+  
+}
+
+
+
+
+
+
+
 @media (max-width: 992px) {
   .wrapper {
     height: 150vh;
@@ -397,3 +432,6 @@
     left: 0%;
   }
 }
+
+
+/* #002e6d #324469; */
