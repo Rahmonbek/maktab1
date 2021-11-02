@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
-* {
-  font-family: "Roboto Condensed", sans-serif;
-}
+/* #cc000d #000912 #2e4269 #b1000c*/
 .bosh_logo_item {
   position: absolute;
   top: 0;
@@ -25,15 +23,16 @@
 .bosh_image p,
 .bosh_clock {
   margin: 0;
-  color: #002347;
+  color:  #2e4269;
   font-size: 1.3rem;
 }
 .bosh_image .bosh_p2 {
   display: none;
 }
 .navbar_menu {
+  /* background-color: #ffffff; */
   position: absolute;
-  top: 10vh;
+  top: 12vh;
   left: 0;
   right: 0;
   padding: 20px;
@@ -59,13 +58,13 @@
   font-weight: 800;
   font-size: 2rem;
 }
-.navar_logo a:hover,
+/* .navar_logo a:hover,
 .navar_logo a:active,
 .navar_logo a:checked,
 .navar_logo_md a:hover,
 .navar_logo_md a:active {
-  color: #c79200;
-}
+  color: #cc000d;
+} */
 .navbar_items {
   margin-left: 10px;
   width: 100%;
@@ -80,7 +79,7 @@
 }
 .navbar_items a:hover,
 .navbar_items a:checked {
-  color: #fdc632;
+  color:  #b1000c;
 }
 .navbar_button {
   display: none;
@@ -101,26 +100,26 @@
   height: 30%;
 }
 .typed_item {
-  color: #002347;
+  color: #000912;
   font-weight: 600;
   letter-spacing: 3px;
   word-spacing: 10px;
-  text-shadow: 0 0 3px #3fff;
-}
-.yozuvBtn {
+  text-shadow: 0 0 1px rgb(74, 42, 235);
+margin-top: 5%;}
+/* .yozuvBtn {
   margin-top: 40px;
-}
-.yozuvBtn button {
+} */
+/* .yozuvBtn button {
   color: #002347;
   background-color: #fdc632;
   font-size: 14px;
   padding: 15px 30px;
   border: none;
-}
-.yozuvBtn button:hover {
+} */
+/* .yozuvBtn button:hover {
   background-color: #002347;
   color: #fdc632;
-}
+} */
 .row_col_item {
   padding: 20px;
   display: flex;
@@ -169,6 +168,7 @@
   color: #002347;
   font-weight: 600;
   letter-spacing: 1px;
+  
 }
 .card_item1_text * {
   font-size: 15px;
@@ -183,7 +183,7 @@
   margin: 0 auto;
 }
 .card_title svg {
-  color: #318ce3;
+  color: #cc000d;
   font-size: 30px;
 }
 .main_header {
