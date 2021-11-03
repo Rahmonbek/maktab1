@@ -344,7 +344,7 @@ export default class BoshSahifa extends Component {
                 </div>
               </div>
             </div>
-            <div classname={style.cardnamet}> <h1>Bizning afzalliklarimiz</h1></div> 
+            <div classname={style.cardnamet} style={{fontWeight: "bolder"}}> <h1>Bizning <span className={style.colortext}>afzalliklarimiz </span></h1></div> 
 
             <div className={style.card_items}>
 

@@ -9,6 +9,7 @@ import axios from "axios";
 import Aos from "aos";
 import { getPupil } from "../host/Config";
 import { url, user, idMaktab } from "../host/Host";
+import registr from "../img/sinf1/registr.jpg"
 // import { styles } from "material-ui-pickers/wrappers/InlineWrapper";
 
 export default class BoshSahifaDavomi extends Component {
@@ -121,7 +122,48 @@ export default class BoshSahifaDavomi extends Component {
   render() {
     return (
       <div>
-        <Container>
+<Container>
+          <Row className={`${style.container} jumbotron`}>
+          <Col md={6} lg={6} className={style.row_image}>
+              <div className={style.boshsahifa_image}>
+                <Image
+                  style={{ width: "100%" }}
+                  src={
+                     registr
+                  }
+                />
+              </div>
+            </Col>
+
+            <Col xs={12} sm={12} md={6} lg={6}>
+              <div className={style.boshsahifa_info}>
+                <h1>Qabul uchun ariza topshiring</h1><br/>
+                <h3>Kuzgi qabul jarayoni hozir mavjud</h3>
+                <p>
+                  Biz o'quvchilarimizga shunchaki ta'lim beribgina qolmasdan,
+                  shu bilan birga ularga kelajakda o'z o'rnilarini topishlariga
+                  yordam beramiz.
+                </p><br/>
+              </div>
+              <ButtonWrapper>
+                <button className="btn drawBorder">
+                  <a
+                    style={{ textDecoration: "none" }}
+                    href="https://my.maktab.uz/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Hoziroq ariza topshiring
+                  </a>
+                </button>
+              </ButtonWrapper>
+            </Col>
+            
+          </Row>
+        </Container>
+
+
+        {/* <Container>
           <Row className={`${style.container} jumbotron`}>
             <Col xs={12} sm={12} md={6} lg={6}>
               <div className={style.boshsahifa_info}>
@@ -155,13 +197,13 @@ export default class BoshSahifaDavomi extends Component {
               </div>
             </Col>
           </Row>
-        </Container>
+        </Container> */}
 
         <Container>
           <Row>
             <Col lg={12} md={12} sm={12}>
               <div className={style.tana}>
-                <h3 className={style.main_header}>A'lochilar doskasi</h3>
+                <h3 className={style.main_header}><br/>A'lochilar  <span className={style.colortext}>doskasi</span></h3>
                 <Container className={style.back}>
                   <Row>
                     {this.state.excellent !== [] && this.state.class !== []
@@ -206,7 +248,7 @@ export default class BoshSahifaDavomi extends Component {
             </Col>
             <Col lg={12} md={12} sm={12}>
               <div className={style.tana} id="corner-ribbon">
-                <h3 className={style.main_header}>O'qituvchilar doskasi</h3>
+                <h3 className={style.main_header}><br/>O'qituvchilar <span className={style.colortext}>doskasi</span></h3>
                 <Container>
                   <div className={style.uchitel}>
                     <div className={style.uchitel_item}>
